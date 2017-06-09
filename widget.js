@@ -3,10 +3,12 @@
 // Load additional files via Chilipeppr's require.js
 requirejs.config({
     paths: {
+        /* it's loaded before from requirejs
         jqueryui: '//i2dcui.appspot.com/js/jquery-ui-1.10.4/ui/jquery.ui.core',
         jqueryuiWidget: '//i2dcui.appspot.com/js/jquery-ui-1.10.4/ui/jquery.ui.widget',
         jqueryuiMouse: '//i2dcui.appspot.com/js/jquery-ui-1.10.4/ui/jquery.ui.mouse',
         jqueryuiResizeable: '//i2dcui.appspot.com/js/jquery-ui-1.10.4/ui/jquery.ui.resizable',
+        */  
     },
     shim: {
         jqueryuiWidget: ['jqueryui'],
